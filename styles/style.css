@@ -1,0 +1,284 @@
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.wallpaperscraft.ru/image/single/tsarapiny_linii_sinij_132066_2560x1600.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    z-index: -1;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menubutton{
+    color: rgb(226, 73, 13);
+    text-decoration: none;
+    font-size: 20px;
+margin-left: 15px;
+background:linear-gradient(rgba(255, 166, 0, 0.355),rgba(88, 19, 149, 0.355));
+}
+.menubutton:hover{
+    color: whitesmoke;
+}
+h1{
+    color: snow;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 8px 8px rgba(82, 90, 132, 0.725);
+}
+.Records{
+    background-color: rgba(113, 181, 93, 0.366);
+    width: 600px;
+    height: 650px;
+    margin: 0 auto;
+    backdrop-filter: blur(10px);
+border: 1px solid rgb(172, 19, 201);
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center;
+justify-content: start;
+
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.content{
+    width: 100%;
+    margin-top: 600px;
+
+}
+.colon{
+   border-bottom: 2px solid white;
+    width: 70px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colon1{
+    width: 35px;
+}
+.colon2{
+    width: 105px;
+}
+.row{
+    display: flex;
+
+}
+.recordswrapper{
+    overflow: hidden;
+    overflow-y: scroll;
+
+}
+.about{
+    width: 100%;
+    margin-top: 200px;
+
+}
+.aboutwrapper{
+    width: 600px;
+    height: fit-content;
+    background-color: rgba(213, 169, 251, 0.232);
+    backdrop-filter: blur(10px);
+   margin: 0 auto;
+   border-radius: 15px 20px;
+   padding: 10px;
+
+}
+.aboutwrapper p{
+    color: rgb(210, 210, 210);
+    
+}
+.picture{
+    width: 1200px;
+    height: 540px;
+    margin: 0 auto;
+    background-image: url(https://i.redd.it/dorae3yhjqhb1.jpg);
+}
+.button{
+    padding: 6px;
+    background-color: rgb(46, 76, 26);
+    color: snow;
+    font-size: 16px;
+transition: 0.3s;
+cursor: pointer;
+}
+.button:hover{
+    transform: scale(1.1);
+    background-color: darkslategrey;
+    box-shadow: 5px 5px 9px rgb(35, 15, 21);
+}
+.info{
+    margin-top: 20px;
+    font-size: 20px;
+}
+/* .videoleft{
+    width: 300px;
+    height: fit-content;
+    position: absolute;
+    left: 0;
+    top: 600px;
+    background-color: black;
+    min-height: 1000px;
+} */
+ .videos{
+    display: flex;
+    width: 80%;
+    min-height: 500px;
+    height: fit-content;
+    background-color: rgb(232, 248, 216);
+    margin: 100px auto;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: start;
+    padding: 15px;
+    
+ }
+ iframe{
+    margin-right: 20px;
+ }
+ .demonslist{
+    display: flex;
+    width: 40%;
+    min-height: 500px;
+    height: 500px;
+    overflow: hidden;
+    overflow-y: scroll;
+    background-color: rgb(243, 232, 251);
+    margin: 100px auto;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: start;
+    padding: 15px;
+ }
+ .demonsitem{
+width: 100%;
+height: fit-content;
+border-bottom: 3px solid black;
+display: flex;
+flex-direction: row;
+ }
+ .levels{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .levelname{
+    font-size: 20px;
+    font-weight: 700;
+ }
+.setting{
+    width: 36px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.menuright{
+    display: flex;
+    align-items: center;
+}
+.logout{
+    color:ghostwhite;
+}
+.futurecontent{
+    background-color: rgba(113, 181, 93, 0.366);
+    width: 500px;
+    height: 200px;
+    border: 1px solid rgb(172, 19, 201);
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 35px;
+color: white;
+margin: 100px auto;
+}
+.channels{
+    background-color: rgba(113, 181, 93, 0.366);
+    width: 500px;
+    height: 200px;
+    border: 1px solid rgb(172, 19, 201);
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 35px;
+color: white;
+margin: 100px auto;
+flex-direction: column;
+}
+.channels li a{
+    color:rgb(21, 195, 21);
+
+}
+.channels ul{
+    list-style: none;
+}
+.channels h1{
+    font-size: 29px;
+}
+.Settinglist{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(40, 40, 40);
+    position: absolute;
+    right: 0;
+    top: -250px;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+   
+}
+.SettingL{
+   outline: none;
+   border: none;
+   width: 200px;
+   height: 50px;
+   background-color: rgb(0, 0, 0);
+   color: white;
+   cursor: pointer;
+}
+.SettingL:hover{
+    background-color: rgb(119, 119, 119);
+
+}
+@keyframes menudown{
+    0%{
+        top: -250px;
+    }
+    100%{
+        top: 50px;
+    }
+}
+.downmenu{
+    animation: menudown 2s ease forwards;
+    z-index: 2000;
+}
+
+@keyframes menuup{
+    0%{
+        top: 50px;
+    }
+    100%{
+        top: -250px;
+    }
+}
+
+.upmenu{
+    animation: menuup 2s ease forwards;
+    z-index: -1;
+}

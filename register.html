@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/register.css">
+</head>
+<body>
+    <div class="container">
+        <div class="tabs">
+            <div class="btn" id="btn"></div>
+            <button class="switch" onclick="logino()">Log In</button>
+            <button class="switch" onclick="registration()">Register</button>
+        </div>
+        <div class="socials">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-google"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+        <form action="" onsubmit="return checkerror(event)" class="form" id="login">
+            <p class="error"></p>
+            <input type="text" class="filed" id="loginlogin" placeholder="Enter Your Nickname">
+            <p class="errorp"></p>
+            <input type="password" class="filed" id="password" placeholder="Enter Your Password">
+            <input type="checkbox" class="checkbox"><span>Remember Password</span>
+            <button type="button" class="submit">Log In</button>
+        </form>
+        <form action="" onsubmit="" class="form" id="register">
+            <p class="error"></p>
+            <input type="text" class="filed" id="loginlogin" placeholder="Enter Your Nickname">
+            <p class="errorp"></p>
+            <input type="email" class="filed" id="email" placeholder="Enter your email">
+            <input type="password" class="filed" id="password" placeholder="Enter Your Password">
+            <input type="checkbox" class="checkbox"><span>I agree to the terms and conditions</span>
+            <button type="button" class="submit">Log In</button>
+        </form>
+    </div>
+    <script src="scripts/register.js"></script>
+</body>
+</html>
+
+<!-- (Will be shown to other People) -->
